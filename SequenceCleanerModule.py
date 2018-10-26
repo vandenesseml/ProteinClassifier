@@ -41,5 +41,7 @@ fileOutput = open('dataset.csv', 'w', encoding='utf-8')
 print('Save to file')
 for row in tqdm(dataset):
     for item in row:
-        fileOutput.write(str(item) + ',')
-    fileOutput.write('\n')
+        if row.index(item) == len(row)-1:
+            fileOutput.write(str(item) + '\n')
+        else:
+            fileOutput.write(str(item) + ',')
