@@ -12,15 +12,15 @@
     <parameter key="process_duration_for_mail" value="30"/>
     <parameter key="encoding" value="SYSTEM"/>
     <process expanded="true">
-      <operator activated="true" class="retrieve" compatibility="9.0.002" expanded="true" height="68" name="Retrieve dataset" width="90" x="45" y="85">
-        <parameter key="repository_entry" value="../dataset/dataset"/>
+      <operator activated="true" class="retrieve" compatibility="9.0.002" expanded="true" height="68" name="Retrieve dataset_yashar" width="90" x="112" y="187">
+        <parameter key="repository_entry" value="../dataset/dataset_yashar"/>
       </operator>
-      <operator activated="true" class="set_role" compatibility="9.0.002" expanded="true" height="82" name="Set Role" width="90" x="179" y="85">
+      <operator activated="true" class="set_role" compatibility="9.0.002" expanded="true" height="82" name="Set Role" width="90" x="313" y="187">
         <parameter key="attribute_name" value="Class"/>
         <parameter key="target_role" value="label"/>
         <list key="set_additional_roles"/>
       </operator>
-      <operator activated="true" class="concurrency:cross_validation" compatibility="9.0.002" expanded="true" height="145" name="Cross Validation" width="90" x="380" y="85">
+      <operator activated="true" class="concurrency:cross_validation" compatibility="9.0.002" expanded="true" height="145" name="Cross Validation" width="90" x="514" y="187">
         <parameter key="split_on_batch_attribute" value="false"/>
         <parameter key="leave_one_out" value="false"/>
         <parameter key="number_of_folds" value="5"/>
@@ -91,7 +91,7 @@
           <portSpacing port="sink_performance 2" spacing="0"/>
         </process>
       </operator>
-      <connect from_op="Retrieve dataset" from_port="output" to_op="Set Role" to_port="example set input"/>
+      <connect from_op="Retrieve dataset_yashar" from_port="output" to_op="Set Role" to_port="example set input"/>
       <connect from_op="Set Role" from_port="example set output" to_op="Cross Validation" to_port="example set"/>
       <connect from_op="Cross Validation" from_port="model" to_port="result 1"/>
       <connect from_op="Cross Validation" from_port="test result set" to_port="result 2"/>
