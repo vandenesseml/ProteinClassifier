@@ -213,6 +213,8 @@ else:
                 if char in aa_20:
                     formattedSeq = formattedSeq + char
             Sequence = formattedSeq
+            if len(Seqeunce) < LambdaVal:
+                LambdaVal = len(Sequence)
             Class = element.split(',')[1]
             fasta_format = fasta_format + '>' + Class + '\n' + Sequence + '\n'
         fout = open(outfile, 'w')
