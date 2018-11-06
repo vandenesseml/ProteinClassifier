@@ -21,9 +21,9 @@ print('Clean sequences')
 for element in tqdm(sequenceList):
     Sequence = element.split(',')[0]
     Class = element.split(',')[1]
-    fasta = '>' + Class + '\n' + Sequence + '\n'
+    fasta_format = fasta_format + '>' + Class + '\n' + Sequence + '\n'
 
-print()
+print(fasta_format)
 
 
 
