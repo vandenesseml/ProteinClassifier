@@ -213,10 +213,11 @@ else:
                 if char in aa_20:
                     formattedSeq = formattedSeq + char
             Sequence = formattedSeq
-            if len(Sequence) < LambdaVal:
-                LambdaVal = len(Sequence)
+            if len(Sequence) <= LambdaVal:
+                LambdaVal = len(Sequence) - 1
             Class = element.split(',')[1]
             fasta_format = fasta_format + '>' + Class + '\n' + Sequence + '\n'
+        print(LambdaVal)
         fout = open(outfile, 'w')
         flog = open('./output/input_seq.log', 'w')
         val1n = fasta_format.split('>')

@@ -13,11 +13,10 @@ def join():
     dataset_1 = fileContents.split('\n')
     print('Create dataset 1')
     for index in tqdm(range(0, len(dataset_1))):
-        try:
-            dataset_1[index] = dataset_1[index].split(',')
-            del dataset_1[index][(len(dataset_1[index]) - 1)]
-        except:
-            del dataset_1[index]
+
+        dataset_1[index] = dataset_1[index].split(',')
+        del dataset_1[index][(len(dataset_1[index]) - 1)]
+
     with open(dataset_2_filename, 'r', encoding='utf-8') as dataset:
         fileContents = dataset.read()
     dataset_2 = fileContents.split('\n')
