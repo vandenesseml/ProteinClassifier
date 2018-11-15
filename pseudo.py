@@ -217,10 +217,15 @@ else:
                 LambdaVal = len(Sequence) - 1
             Class = element.split(',')[1]
             fasta_format = fasta_format + '>' + Class + '\n' + Sequence + '\n'
-        print(LambdaVal)
         fout = open(outfile, 'w')
         flog = open('./output/input_seq.log', 'w')
         val1n = fasta_format.split('>')
+        # create header
+        header = ''
+        for i in range(0, LambdaVal + 20):
+            header = header + 'F' + str(i) + ','
+        header = header + 'CLASS\n'
+        fout.write(header)
 
         if val1n[0] != '':
             print('Check input sequence file format(FASTA).')
@@ -279,7 +284,7 @@ else:
                                     5)))
 
                     #print all_PseAAC
-                    fout.write(str.join(',', all_PseAAC) + ','+Class+'\n')
+                    fout.write(str.join(',', all_PseAAC) + ',' + Class + '\n')
                     seq_num += 1
                 else:
                     print(
