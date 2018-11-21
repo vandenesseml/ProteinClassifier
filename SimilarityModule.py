@@ -40,16 +40,20 @@ def check_count():
 
 def common_substring(sequence_list, empty_list):
     s = str(sequence_list)
+
     for n in range(1, len(s)):
         substring_counter = Counter(s[i: i + n] for i in range(len(s) - n))
         phrase, occurrence = substring_counter.most_common(1)[0]
-        if occurrence > 5:
+
+        if occurrence > 3:
             print('Size: %3d:  Occurrences: %3d  Phrase: %r' % (n, occurrence, phrase))
+            text_file.write('Size: %3d:  Occurrences: %3d  Phrase: %r \n' % (n, occurrence, phrase))
             empty_list.append(phrase)
         else:
             break
 
 
+# Matches longest common sub string. Not needed since common_substring is being used
 def sequence_matcher():
     for sequence in dna:
         string1 = dna[0]
@@ -59,10 +63,22 @@ def sequence_matcher():
 
 
 intake()
-common_substring(dna, master)
-common_substring(rna, master)
-common_substring(drna, master)
-common_substring(nondrna, master)
-common_substring(master, final)
+text_file = open("output/dna.txt", "w")
+common_substring(dna, dna_sub)
+text_file.close()
 
-print(final)
+text_file = open("output/rna.txt", "w")
+common_substring(rna, rna_sub)
+text_file.close()
+
+text_file = open("output/drna.txt", "w")
+common_substring(drna, drna_sub)
+text_file.close()
+
+text_file = open("output/nondrna.txt", "w")
+common_substring(nondrna, nondrna_sub)
+text_file.close()
+
+# common_substring(master, final)
+# print(final)
+
