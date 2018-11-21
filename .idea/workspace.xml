@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4031beaa-9538-4690-a331-51ef73ea0454" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/SimilarityModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimilarityModule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniqueSequenceModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/UniqueSequenceModule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/dna.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/drna.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/nondrna.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/rna.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ProteinClassifier$SimilarityModule.coverage" NAME="SimilarityModule Coverage Results" MODIFIED="1542831061027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProteinClassifier$SimilarityModule.coverage" NAME="SimilarityModule Coverage Results" MODIFIED="1542833875007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="458136597">
@@ -28,27 +33,27 @@
         <counts>
           <entry key="csv" value="1" />
           <entry key="log" value="1" />
-          <entry key="py" value="7" />
-          <entry key="txt" value="11" />
+          <entry key="py" value="8" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="7" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="9" />
-          <entry key="py" value="1408" />
+          <entry key="dummy" value="25" />
+          <entry key="py" value="1499" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="1408" />
+          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="Python" value="1499" />
         </counts>
       </usages-collector>
     </session>
@@ -56,53 +61,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SimilarityModule.py">
+        <entry file="file://$PROJECT_DIR$/UniqueSequenceModule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="1426">
+              <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1542831897017" expanded="true" signature="678:681" ph="..." />
-                <marker date="1542831897017" expanded="true" signature="699:810" ph="..." />
-                <marker date="1542831897017" expanded="true" signature="858:1433" ph="..." />
-                <marker date="1542831897017" expanded="true" signature="1456:1457" ph="..." />
+                <marker date="1542833863212" expanded="true" signature="632:634" ph="..." />
+                <marker date="1542833863212" expanded="true" signature="634:635" ph="..." />
+                <marker date="1542833863212" expanded="true" signature="684:1830" ph="..." />
+                <marker date="1542833863212" expanded="true" signature="1285:1745" ph="..." />
+                <marker date="1542833863212" expanded="true" signature="1853:1854" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output/drna.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="43" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/output/dna.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output/nondrna.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1564" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output/rna.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/output/unique/nondrna.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -122,6 +99,7 @@
       <list>
         <option value="$PROJECT_DIR$/SimilarityModule.py" />
         <option value="$PROJECT_DIR$/output/nondrna.txt" />
+        <option value="$PROJECT_DIR$/UniqueSequenceModule.py" />
       </list>
     </option>
   </component>
@@ -131,7 +109,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1296" />
     <option name="height" value="1050" />
   </component>
@@ -156,6 +134,12 @@
               <item name="ProteinClassifier" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProteinClassifier" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProteinClassifier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProteinClassifier" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="unique" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,15 +209,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1296" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26714513" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2045177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32908705" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34647304" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3460722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -301,20 +285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SimilarityModule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1542831897017" expanded="true" signature="678:681" ph="..." />
-            <marker date="1542831897017" expanded="true" signature="699:810" ph="..." />
-            <marker date="1542831897017" expanded="true" signature="858:1433" ph="..." />
-            <marker date="1542831897017" expanded="true" signature="1456:1457" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/nondrna.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1564" />
@@ -336,10 +306,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/output/dna.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        <state relative-caret-position="437">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniqueSequenceModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1426">
+          <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1542833863212" expanded="true" signature="632:634" ph="..." />
+            <marker date="1542833863212" expanded="true" signature="634:635" ph="..." />
+            <marker date="1542833863212" expanded="true" signature="684:1830" ph="..." />
+            <marker date="1542833863212" expanded="true" signature="1285:1745" ph="..." />
+            <marker date="1542833863212" expanded="true" signature="1853:1854" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/unique/nondrna.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

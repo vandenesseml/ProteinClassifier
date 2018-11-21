@@ -1,16 +1,14 @@
 from difflib import SequenceMatcher
 from collections import Counter
 
+# Globals
 filename = './input/sequences_training.txt'
 missing_key = 0
 dna = []
 rna = []
 drna = []
 nondrna = []
-dna_sub = []
-rna_sub = []
-drna_sub = []
-nondrna_sub = []
+
 
 def intake():
     with open(filename, 'r', encoding='utf-8') as sequences:
@@ -27,15 +25,7 @@ def intake():
                 nondrna.append(line[0])
 
 
-def check_count():
-    print(len(dna))
-    print(len(rna))
-    print(len(drna))
-    print(len(nondrna))
-    print(missing_key)
-
-
-def common_substring(sequence_list, empty_list):
+def common_substring(sequence_list, file_writer):
     s = str(sequence_list)
 
     for n in range(1, len(s)):
@@ -44,10 +34,35 @@ def common_substring(sequence_list, empty_list):
 
         if occurrence > 3:
             print('Size: %3d:  Occurrences: %3d  Phrase: %r' % (n, occurrence, phrase))
-            text_file.write('Size: %3d:  Occurrences: %3d  Phrase: %r \n' % (n, occurrence, phrase))
-            empty_list.append(phrase)
+            file_writer.write('Size: %3d:  Occurrences: %3d  Phrase: %r \n' % (n, occurrence, phrase))
         else:
             break
+
+
+def check_count():
+    print(len(dna))
+    print(len(rna))
+    print(len(drna))
+    print(len(nondrna))
+    print(missing_key)
+
+
+def find_unique():
+    text_file = open("output/unique/dna.txt", 'w+')
+    common_substring(dna, text_file)
+    text_file.close()
+
+    text_file = open("output/unique/rna.txt", 'w+')
+    common_substring(rna, text_file)
+    text_file.close()
+
+    text_file = open("output/unique/drna.txt", 'w+')
+    common_substring(drna, text_file)
+    text_file.close()
+
+    text_file = open("output/unique/nondrna.txt", 'w+')
+    common_substring(nondrna, text_file)
+    text_file.close()
 
 
 # Matches longest common sub string. Not needed since common_substring is being used
@@ -60,19 +75,4 @@ def sequence_matcher():
 
 
 intake()
-text_file = open("output/dna.txt", "w")
-common_substring(dna, dna_sub)
-text_file.close()
-
-text_file = open("output/rna.txt", "w")
-common_substring(rna, rna_sub)
-text_file.close()
-
-text_file = open("output/drna.txt", "w")
-common_substring(drna, drna_sub)
-text_file.close()
-
-text_file = open("output/nondrna.txt", "w")
-common_substring(nondrna, nondrna_sub)
-text_file.close()
-
+find_unique()
