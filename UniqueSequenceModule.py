@@ -11,9 +11,6 @@ dna_sub = []
 rna_sub = []
 drna_sub = []
 nondrna_sub = []
-master = []
-final = []
-
 
 def intake():
     with open(filename, 'r', encoding='utf-8') as sequences:
@@ -78,7 +75,4 @@ text_file.close()
 text_file = open("output/nondrna.txt", "w")
 common_substring(nondrna, nondrna_sub)
 text_file.close()
-
-# common_substring(master, final)
-# print(final)
 
