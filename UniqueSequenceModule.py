@@ -65,7 +65,7 @@ def find_unique():
     text_file.close()
 
 
-# Matches longest common sub string. Not needed since common_substring is being used
+# Matches longest common sub string. Not needed at this moment since common_substring is being used.
 def sequence_matcher():
     for sequence in dna:
         string1 = dna[0]

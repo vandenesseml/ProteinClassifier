@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4031beaa-9538-4690-a331-51ef73ea0454" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/output/unique/drna.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/unique/drna.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SmilarityModule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniqueSequenceModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/UniqueSequenceModule.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/unique/nondrna.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/unique/nondrna.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ProteinClassifier$SimilarityModule.coverage" NAME="SimilarityModule Coverage Results" MODIFIED="1542833875007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProteinClassifier$SimilarityModule.coverage" NAME="SimilarityModule Coverage Results" MODIFIED="1542856698809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="458136597">
@@ -29,27 +31,27 @@
         <counts>
           <entry key="csv" value="1" />
           <entry key="log" value="1" />
-          <entry key="py" value="8" />
+          <entry key="py" value="10" />
           <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="25" />
-          <entry key="py" value="1499" />
+          <entry key="py" value="1822" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="29" />
-          <entry key="Python" value="1499" />
+          <entry key="Python" value="1822" />
         </counts>
       </usages-collector>
     </session>
@@ -59,52 +61,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UniqueSequenceModule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1426">
-              <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
+            <state relative-caret-position="715">
+              <caret line="76" selection-start-line="76" selection-end-line="76" selection-end-column="8" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1542833863212" expanded="true" signature="632:634" ph="..." />
-                <marker date="1542833863212" expanded="true" signature="634:635" ph="..." />
-                <marker date="1542833863212" expanded="true" signature="684:1830" ph="..." />
-                <marker date="1542833863212" expanded="true" signature="1285:1745" ph="..." />
-                <marker date="1542833863212" expanded="true" signature="1853:1854" ph="..." />
+                <marker date="1542855427462" expanded="true" signature="632:634" ph="..." />
+                <marker date="1542855427462" expanded="true" signature="634:635" ph="..." />
+                <marker date="1542855427462" expanded="true" signature="684:1846" ph="..." />
+                <marker date="1542855427462" expanded="true" signature="1285:1745" ph="..." />
+                <marker date="1542855427462" expanded="true" signature="1869:1870" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output/unique/dna.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
-              <caret line="49" column="89" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output/unique/rna.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/output/unique/drna.txt">
+        <entry file="file://$PROJECT_DIR$/SmilarityModule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output/unique/nondrna.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="30" />
+            <state relative-caret-position="393">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <marker date="1542856654868" expanded="true" signature="622:1309" ph="..." />
+                <marker date="1542856654868" expanded="true" signature="1349:1478" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,8 +105,9 @@
       <list>
         <option value="$PROJECT_DIR$/SimilarityModule.py" />
         <option value="$PROJECT_DIR$/output/nondrna.txt" />
-        <option value="$PROJECT_DIR$/UniqueSequenceModule.py" />
         <option value="$PROJECT_DIR$/output/unique/drna.txt" />
+        <option value="$PROJECT_DIR$/UniqueSequenceModule.py" />
+        <option value="$PROJECT_DIR$/SmilarityModule.py" />
       </list>
     </option>
   </component>
@@ -152,22 +132,6 @@
             <path>
               <item name="ProteinClassifier" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProteinClassifier" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProteinClassifier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProteinClassifier" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProteinClassifier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProteinClassifier" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProteinClassifier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProteinClassifier" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-              <item name="unique" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -339,21 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UniqueSequenceModule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1426">
-          <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1542833863212" expanded="true" signature="632:634" ph="..." />
-            <marker date="1542833863212" expanded="true" signature="634:635" ph="..." />
-            <marker date="1542833863212" expanded="true" signature="684:1830" ph="..." />
-            <marker date="1542833863212" expanded="true" signature="1285:1745" ph="..." />
-            <marker date="1542833863212" expanded="true" signature="1853:1854" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/unique/dna.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1127">
@@ -377,8 +326,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/output/unique/drna.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        <state relative-caret-position="253">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pseudo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniqueSequenceModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="76" selection-start-line="76" selection-end-line="76" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1542855427462" expanded="true" signature="632:634" ph="..." />
+            <marker date="1542855427462" expanded="true" signature="634:635" ph="..." />
+            <marker date="1542855427462" expanded="true" signature="684:1846" ph="..." />
+            <marker date="1542855427462" expanded="true" signature="1285:1745" ph="..." />
+            <marker date="1542855427462" expanded="true" signature="1869:1870" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmilarityModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <marker date="1542856654868" expanded="true" signature="622:1309" ph="..." />
+            <marker date="1542856654868" expanded="true" signature="1349:1478" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
