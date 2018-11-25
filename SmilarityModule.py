@@ -1,6 +1,6 @@
 import difflib
 
-# change file path accordingly
+# TODO: change file path accordingly
 filename = './input/sequences_testing.txt'
 missing_key = 0
 dna = []
