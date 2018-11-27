@@ -27,7 +27,7 @@ def intake_target(src):
     with open(src, 'r', encoding='utf-8') as sequences:
         for sequence in sequences:
             result = similarity(sequence)
-            text_file.write("matched: " + result[0] + " similarity: " + str(result[1]))
+            text_file.write("matched: {} similarity: {}\n".format(result[0], str(result[1])))
 
 
 def similarity(original):
