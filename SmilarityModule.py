@@ -1,12 +1,12 @@
 import difflib
 
-# TODO: change file path accordingly
 filename = './input/sequences_training.txt'
 missing_key = 0
 dna = []
 rna = []
 drna = []
 nondrna = []
+index = 0
 
 
 def intake():
@@ -24,11 +24,26 @@ def intake():
                 nondrna.append(line[0])
 
 
-def intake_target():
-    with open(filename, 'r', encoding='utf-8') as sequences:
+def intake_target(src):
+    with open(src, 'r', encoding='utf-8') as sequences:
         for sequence in sequences:
             result = similarity(sequence)
-            text_file.write("matched: " + result[0] + " similarity: " + str(result[1]))
+            text_file.write("matched: {} similarity: {}\n".format(result[0], str(result[1])))
+
+
+# Only use for testing training data
+def intake_target_test(src):
+    global index
+    with open(src, 'r', encoding='utf-8') as sequences:
+        current = 0
+        for sequence in sequences:
+            if current != index:
+                result = similarity(sequence)
+                text_file.write("matched: {} similarity: {}\n".format(result[0], str(result[1])))
+                index += 1
+            else:
+                pass
+            current += 1
 
 
 def similarity(original):
@@ -63,6 +78,7 @@ def similarity(original):
             best = value
             match = "nondrna"
 
+    print("Match: {} Best: {}".format(match, best))
     return [match, best]
 
 
@@ -82,9 +98,10 @@ def check_count():
 
 
 intake()
-text_file = open("output/similarity/report.txt", 'w+')
-intake_target()
+text_file = open("output/similarity/report1.txt", 'w+')
+# intake_target("input/sequences_test.txt")
+intake_target_test(filename)
 text_file.close()
 
 # Test
-# similarity("MALAVLALRTRAAVTALLSPPQAAALAVRYASKKTGGSSKNLGGKSPGKRFGIKKMEGHYVHAGNILATQRHFRWHPGAHVGLGKNKCLYALEEGVVRYTKEVYVPNPSNSEAVDLVTRLPQGAVLYKTFVHVVPAKPEGTFKLVAML")
+# similarity("MKEGIHPKLVPARIICGCGNVIETYSTKPEIYVEVCSKCHPFYTGQQRFVDTEGRVERFQRRYGDSYRKGRL")
