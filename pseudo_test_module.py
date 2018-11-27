@@ -212,15 +212,15 @@ else:
                 if char in aa_20:
                     formattedSeq = formattedSeq + char
             sequence = formattedSeq
-            if len(sequence) <= LambdaVal:
-                LambdaVal = len(sequence) - 1
+            # if len(sequence) <= LambdaVal:
+            #     LambdaVal = len(sequence) - 1
             fasta_format = fasta_format + '>\n' + sequence + '\n'
         fout = open(outfile, 'w')
         flog = open('./output/input_seq.log', 'w')
         val1n = fasta_format.split('>')
         # create header
         header = ''
-        for i in range(0, LambdaVal + 20):
+        for i in range(1, LambdaVal + 21):
             header = header + 'F' + str(i) + ','
         header = header + 'CLASS\n'
         fout.write(header)
