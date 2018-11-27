@@ -1,0 +1,24 @@
+Size:   1:  Occurrences: 12775  Phrase: 'L' 
+Size:   2:  Occurrences: 1340  Phrase: 'AA' 
+Size:   3:  Occurrences: 522  Phrase: "', " 
+Size:   4:  Occurrences: 522  Phrase: "', '" 
+Size:   5:  Occurrences: 515  Phrase: "', 'M" 
+Size:   6:  Occurrences: 142  Phrase: "', 'MA" 
+Size:   7:  Occurrences:  60  Phrase: 'QQQQQQQ' 
+Size:   8:  Occurrences:  47  Phrase: 'QQQQQQQQ' 
+Size:   9:  Occurrences:  35  Phrase: 'QQQQQQQQQ' 
+Size:  10:  Occurrences:  26  Phrase: 'QQQQQQQQQQ' 
+Size:  11:  Occurrences:  19  Phrase: 'QQQQQQQQQQQ' 
+Size:  12:  Occurrences:  13  Phrase: 'QQQQQQQQQQQQ' 
+Size:  13:  Occurrences:   8  Phrase: 'QQQQQQQQQQQQQ' 
+Size:  14:  Occurrences:   5  Phrase: 'QQQQQQQQQQQQQQ' 
+Size:  15:  Occurrences:   4  Phrase: 'KGTNETTKAVERGQA' 
+Size:  16:  Occurrences:   4  Phrase: 'KGTNETTKAVERGQAK' 
+Size:  17:  Occurrences:   4  Phrase: 'KGTNETTKAVERGQAKL' 
+Size:  18:  Occurrences:   4  Phrase: 'KGTNETTKAVERGQAKLV' 
+Size:  19:  Occurrences:   4  Phrase: 'KGTNETTKAVERGQAKLVI' 
+Size:  20:  Occurrences:   4  Phrase: 'KGTNETTKAVERGQAKLVII' 
+Size:  21:  Occurrences:   4  Phrase: 'KGTNETTKAVERGQAKLVIIA' 
+Size:  22:  Occurrences:   4  Phrase: 'KGTNETTKAVERGQAKLVIIAE' 
+Size:  23:  Occurrences:   4  Phrase: 'KGTNETTKAVERGQAKLVIIAED' 
+Size:  24:  Occurrences:   4  Phrase: 'KGTNETTKAVERGQAKLVIIAEDV' 
