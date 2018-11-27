@@ -6,6 +6,7 @@ dna = []
 rna = []
 drna = []
 nondrna = []
+index = 0
 
 
 def intake():
@@ -28,6 +29,21 @@ def intake_target(src):
         for sequence in sequences:
             result = similarity(sequence)
             text_file.write("matched: {} similarity: {}\n".format(result[0], str(result[1])))
+
+
+# Only use for testing training data
+def intake_target_test(src):
+    global index
+    with open(src, 'r', encoding='utf-8') as sequences:
+        current = 0
+        for sequence in sequences:
+            if current != index:
+                result = similarity(sequence)
+                text_file.write("matched: {} similarity: {}\n".format(result[0], str(result[1])))
+                index += 1
+            else:
+                pass
+            current += 1
 
 
 def similarity(original):
@@ -82,8 +98,9 @@ def check_count():
 
 
 intake()
-text_file = open("output/similarity/report.txt", 'w+')
-intake_target("input/sequences_test.txt")
+text_file = open("output/similarity/report1.txt", 'w+')
+# intake_target("input/sequences_test.txt")
+intake_target_test(filename)
 text_file.close()
 
 # Test
