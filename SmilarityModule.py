@@ -100,8 +100,8 @@ def check_count():
 intake()
 text_file = open("output/similarity/report1.txt", 'w+')
 # intake_target("input/sequences_test.txt")
-intake_target_test(filename)
+# intake_target_test(filename)
 text_file.close()
 
 # Test
-# similarity("MKEGIHPKLVPARIICGCGNVIETYSTKPEIYVEVCSKCHPFYTGQQRFVDTEGRVERFQRRYGDSYRKGRL")
+similarity("ACDVSIEGNDSMQFNTKSIVVDKTCKEFTINLKHTGKLPKAAMGHNVVVSKKSDESAVATDGMKAGLNNDYVKAGDERVIAHTSVIGGGETDSVTFDVSKLKEGEDYAFFCSFPGHWSIMKGTIELGS")
